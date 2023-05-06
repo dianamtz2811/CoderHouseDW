@@ -1,270 +1,270 @@
 .menu {
-  font-variant-caps: all-small-caps;
-  font-size: 24pt;
-  font-weight: bold;
-  color: whitesmoke;
-  background-color: #292929;
-  list-style: none;
-  z-index: 1000;
-  position: fixed;
-  top: 0%;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
+    font-variant-caps: all-small-caps;
+    font-size: 24pt;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #292929;
+    list-style: none;
+    z-index: 1000;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .menu li {
-  margin-bottom: 10px;
-  height: 50px;
-  width: 150px;
-  text-align: center;
-  border-radius: 10px;
-  margin-top: 20px;
-  background-color: orange;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: orange;
 }
 .menu li:hover {
-  background-color: #636363;
+    background-color: #636363;
 }
 .menu .sub {
-  font-variant: normal;
-  font-size: 14pt;
-  text-align: center;
-  list-style: none;
-  width: 150px;
-  display: none;
+    font-variant: normal;
+    font-size: 14pt;
+    text-align: center;
+    list-style: none;
+    width: 150px;
+    display: none;
 }
 .menu .galeria:hover .sub {
-  margin: 0%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 0%;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0%;
 }
 
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 body {
-  background-color: #292929;
-  font-family: "Fira Sans", sans-serif;
-  font-size: 16pt;
-  color: #dbdbdb;
+    background-color: #292929;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16pt;
+    color: #dbdbdb;
 }
 
 header {
-  font-size: large;
-  position: relative;
+    font-size: large;
+    position: relative;
 }
 
 a {
-  text-decoration: none;
-  color: whitesmoke;
+    text-decoration: none;
+    color: whitesmoke;
 }
 a:visited {
-  color: whitesmoke;
+    color: whitesmoke;
 }
 
 button {
-  background-color: orange;
-  border: none;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 80px;
-  text-align: center;
-  font-variant: small-caps;
-  font-size: larger;
-  width: 50%;
-  opacity: 80%;
-  box-shadow: 0 8px 14px 0;
-  z-index: 1;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: larger;
+    width: 50%;
+    opacity: 80%;
+    box-shadow: 0 8px 14px 0;
+    z-index: 1;
 }
 button:hover {
-  opacity: 100%;
+    opacity: 100%;
 }
 
 footer {
-  grid-area: footer;
-  background-color: #939393;
-  padding: 40px;
-  text-align: center;
+    grid-area: footer;
+    background-color: #939393;
+    padding: 40px;
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-  .article__bio {
+    .article__bio {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "ansel robert" "richard frederick";
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     list-style: none;
-  }
-  .article__bio p {
+    }
+    .article__bio p {
     text-align: left;
     font-size: 10pt;
     width: 200px;
     font-weight: lighter;
-  }
-  h1 {
+    }
+    h1 {
     font-size: 100px;
     text-align: center;
-  }
-  .main__index {
+    }
+    .main__index {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 4fr;
-  }
+    }
 }
 .article_a {
-  grid-area: article1;
-  margin: 80px;
-  background-image: -webkit-radial-gradient(rgba(150, 97, 0, 0.47), #292929);
-  border: 40px;
-  text-align: center;
-  border-radius: 20px;
-  margin-top: 20px;
-  align-items: center;
-  justify-content: center;
+    grid-area: article1;
+    margin: 80px;
+    background-image: -webkit-radial-gradient(rgba(150, 97, 0, 0.47), #292929);
+    border: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .article_b {
-  grid-area: article2;
-  margin: 80px;
-  background-image: -webkit-radial-gradient(rgba(150, 97, 0, 0.47), #292929);
-  border: 40px;
-  text-align: center;
-  border-radius: 20px;
-  margin-top: 20px;
-  align-items: center;
-  justify-content: center;
+    grid-area: article2;
+    margin: 80px;
+    background-image: -webkit-radial-gradient(rgba(150, 97, 0, 0.47), #292929);
+    border: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .article__parr {
-  padding: 40px;
-  background-color: rgba(73, 73, 73, 0.3568627451);
-  border-radius: 20px;
-  width: 100%;
-  text-align: left;
-  font-size: 24pt;
+    padding: 40px;
+    background-color: rgba(73, 73, 73, 0.3568627451);
+    border-radius: 20px;
+    width: 100%;
+    text-align: left;
+    font-size: 24pt;
 }
 
 .article__fot {
-  grid-template-columns: 2fr;
-  grid-template-rows: 2fr;
-  justify-content: flex-start;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    justify-content: flex-start;
 }
 
 .art__fechas {
-  font-size: 12pt;
-  list-style: none;
-  padding: 40px;
-  margin-left: 40px;
-  text-align: left;
+    font-size: 12pt;
+    list-style: none;
+    padding: 40px;
+    margin-left: 40px;
+    text-align: left;
 }
 
 .article__item {
-  margin: 20px;
-  list-style: none;
+    margin: 20px;
+    list-style: none;
 }
 
 .article__bio {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 10fr 10fr;
-  grid-template-areas: "ansel robert" "richard frederick";
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-  list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10fr 10fr;
+    grid-template-areas: "ansel robert" "richard frederick";
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    list-style: none;
 }
 .article__bio p {
-  text-align: left;
-  font-size: 14pt;
-  width: 400px;
-  font-weight: lighter;
+    text-align: left;
+    font-size: 14pt;
+    width: 400px;
+    font-weight: lighter;
 }
 
 .article__bio__per1 {
-  grid-area: ansel;
-  padding: 40px;
-  font-size: 48pt;
-  font-weight: bolder;
-  background-color: #939393;
+    grid-area: ansel;
+    padding: 40px;
+    font-size: 48pt;
+    font-weight: bolder;
+    background-color: #939393;
 }
 
 .article__bio__per2 {
-  grid-area: robert;
-  padding: 40px;
-  font-size: 48pt;
-  font-weight: bolder;
-  background-color: #61615f;
+    grid-area: robert;
+    padding: 40px;
+    font-size: 48pt;
+    font-weight: bolder;
+    background-color: #61615f;
 }
 
 .article__bio__per3 {
-  grid-area: richard;
-  padding: 40px;
-  font-size: 48pt;
-  font-weight: bolder;
-  background-color: #61615f;
+    grid-area: richard;
+    padding: 40px;
+    font-size: 48pt;
+    font-weight: bolder;
+    background-color: #61615f;
 }
 
 .article__bio__per4 {
-  grid-area: frederick;
-  padding: 40px;
-  font-size: 48pt;
-  font-weight: bolder;
-  background-color: #939393;
+    grid-area: frederick;
+    padding: 40px;
+    font-size: 48pt;
+    font-weight: bolder;
+    background-color: #939393;
 }
 
 h1 {
-  grid-area: titulo;
-  font-size: 200pt;
-  font-weight: bolder;
-  font-variant: small-caps;
-  text-align: center;
-  color: white;
-  opacity: 80%;
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  margin-top: 90px;
-  margin-bottom: 50px;
+    grid-area: titulo;
+    font-size: 200pt;
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-align: center;
+    color: white;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
 }
 
 h2 {
-  text-align: center;
-  font-size: 36pt;
-  font-weight: bolder;
-  font-variant: small-caps;
+text-align: center;
+font-size: 36pt;
+font-weight: bolder;
+font-variant: small-caps;
 }
 
 .main__index {
-  display: grid;
-  grid-template-columns: repeat(2);
-  grid-template-rows: repeat(2);
-  grid-template-areas: "titulo titulo" "article_a article_b" "footer footer";
+    display: grid;
+    grid-template-columns: repeat(2);
+    grid-template-rows: repeat(2);
+    grid-template-areas: "titulo titulo" "article_a article_b" "footer footer";
 }
 
 form {
-  text-align: center;
-  margin: 80px 120px 80px 120px;
-  padding: 40px;
-  background-color: #636363;
-}
+    text-align: center;
+    margin: 80px 120px 80px 120px;
+    padding: 40px;
+    background-color: #636363;
+    }
 form div {
-  width: 100%;
-  padding: 10px;
+    width: 100%;
+    padding: 10px;
 }
 
 .form__titulo {
-  font-size: 28pt;
-  font-weight: bold;
+    font-size: 28pt;
+    font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */
