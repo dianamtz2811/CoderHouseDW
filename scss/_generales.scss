@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #292929;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16pt;
+    color: #dbdbdb;
+}
+
+header {
+    font-size: large;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    &:visited {
+        color: whitesmoke;
+    }
+}
+
+button {
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: larger;
+    width: 50%;
+    opacity: 80%;
+    box-shadow: 0 8px 14px 0;
+    z-index: 1;
+        &:hover {
+        opacity: 100%;
+        }
+}

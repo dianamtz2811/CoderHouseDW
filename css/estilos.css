@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -6,20 +6,20 @@
 
 html {
     font-size: 62.5%;
-}
-body {
+} */
+/* body {
     background-color: #292929;
     font-family: 'Fira Sans', sans-serif;
     font-size: 16pt;
     color: #dbdbdb;
-}
+} */
 
-header {
+/* header {
     font-size: large;
     position: relative;
-}
+} */
 
-.menu {
+/* .menu {
     font-variant-caps: all-small-caps;
     font-size: 24pt;
     font-weight: bold;
@@ -34,9 +34,9 @@ header {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;   
-}
+} */
 
-.menu li {
+/* .menu li {
     margin-bottom: 10px;
     height: 50px;
     width: 150px;
@@ -65,18 +65,18 @@ header {
     align-items: center;
     justify-content: center;
     border-radius: 0%;
-}
+} */
 
-a {
+/* a {
     text-decoration: none;
     color: whitesmoke;
 }
 
 a:visited {
     color: whitesmoke;
-}
+} */
 
-h1 {
+/* h1 {
     grid-area: titulo;
     font-size: 200pt;
     font-weight: bolder;
@@ -89,9 +89,9 @@ h1 {
     align-self: center;
     margin-top: 90px;
     margin-bottom: 50px;
-}
+} */
 
-.main__index {
+/* .main__index {
     display: grid;
     grid-template-columns: repeat(2);
     grid-template-rows: repeat(2);
@@ -99,9 +99,9 @@ h1 {
     "titulo titulo"
     "article_a article_b"
     "footer footer";
-}
+} */
 
-.article_a {
+/* .article_a {
     grid-area: article1;
     margin: 80px;
     background-image: -webkit-radial-gradient(rgba(150, 97, 0, 0.47), #292929 );
@@ -150,24 +150,24 @@ h1 {
     align-self: center;
     width: 70%;
     align-items: center;
-}
+} */
 
-h2 {
+/* h2 {
     text-align: center;
     font-size: 36pt;
     font-weight: bolder;
     font-variant: small-caps;
-}
+} */
 
-.art__fechas {
+/* .art__fechas {
     font-size: 12pt;
     list-style: none;
     padding: 40px;
     margin-left: 40px;
     text-align: left;
-}
+} */
 
-form {
+/* form {
     text-align: center;
     margin: 80px 120px 80px 120px;
     padding: 40px;
@@ -182,9 +182,9 @@ form div {
 .form__titulo {
     font-size: 28pt;
     font-weight: bold;
-}
+} */
 
-button {
+/* button {
     background-color: orange;
     border: none;
     border-radius: 10px;
@@ -201,9 +201,9 @@ button {
 
 button:hover {
     opacity: 100%;
-}
+} */
 
-.article__bio {
+/* .article__bio {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 10fr 10fr;
@@ -252,9 +252,9 @@ button:hover {
     font-size: 48pt;
     font-weight: bolder;
     background-color: #939393;
-}
+} */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .article__bio {
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(2,1fr);
@@ -280,11 +280,11 @@ button:hover {
         grid-template-columns: 1fr;
         grid-template-rows: 4fr;
     }
-}
+} */
 
-footer {
+/* footer {
     grid-area: footer;
     background-color: #939393;
     padding: 40px;
     text-align: center;
-}
+} */

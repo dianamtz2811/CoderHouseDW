@@ -1,0 +1,105 @@
+// articles del index
+
+.article_a {
+    grid-area: article1;
+    margin: 80px;
+    background-image: $fondoDegradado ;
+    border: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.article_b {
+    grid-area: article2;
+    margin: 80px;
+    background-image: $fondoDegradado ;
+    border: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.article__parr {
+    padding: 40px;
+    background-color:#4949495b;
+    border-radius: 20px;
+    width: 100%;
+    text-align: left;
+    font-size: 24pt;
+}
+
+.article__fot {
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    justify-content: flex-start;
+}
+
+.art__fechas {
+    font-size: 12pt;
+    list-style: none;
+    padding: 40px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.article__item {
+    margin: 20px;
+    list-style: none;
+}
+
+// articles de biografias
+
+.article__bio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10fr 10fr;
+    grid-template-areas:
+    "ansel robert"
+    "richard frederick";
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    list-style: none;
+    p {
+        text-align: left;
+        font-size: 14pt;
+        width: 400px;
+        font-weight: lighter;
+    }
+}
+
+.article__bio__per1 {
+    grid-area: ansel;
+    padding: 40px;
+    font-size: 48pt;
+    font-weight: bolder;
+    background-color: #939393;
+}
+
+.article__bio__per2 {
+    grid-area: robert;
+    padding: 40px;
+    font-size: 48pt;
+    font-weight: bolder;
+    background-color: #61615f;
+}
+
+.article__bio__per3 {
+    grid-area: richard;
+    padding: 40px;
+    font-size: 48pt;
+    font-weight: bolder;
+    background-color: #61615f;
+}
+
+.article__bio__per4 {
+    grid-area: frederick;
+    padding: 40px;
+    font-size: 48pt;
+    font-weight: bolder;
+    background-color: #939393;
+}
