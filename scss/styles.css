@@ -118,12 +118,14 @@ footer {
   }
   .main__index {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
     grid-template-rows: 4fr;
   }
 }
 .article_a {
   grid-area: article1;
+  position: relative;
+  width: 60%;
   margin: 80px;
   background-image: -webkit-radial-gradient(rgba(150, 97, 0, 0.47), #292929);
   border: 40px;
@@ -137,20 +139,22 @@ footer {
 /* LINEA DEL TIEMPO*/
 .linea-tiempo {
   position: relative;
-  width: 500px;
-  max-width: 95vw;
+  width: 100%;
   height: 100%;
-  font-family: Arial;
+  justify-self: center;
+  margin-right: 150px;
+  margin-bottom: 50px;
 }
 
 .linea-tiempo::before {
   content: "";
   position: absolute;
   width: 3px;
-  background-color: #000;
+  background-color: rgba(251, 251, 251, 0.6470588235);
   left: 50%;
-  height: 100%;
+  height: 85%;
   border-radius: 10px;
+  margin-top: 70px;
 }
 
 .momento {
@@ -170,7 +174,7 @@ footer {
   right: calc(-11.11% - 11.5px);
   height: 20px;
   width: 20px;
-  background-color: #000;
+  background-color: rgba(251, 251, 251, 0.6470588235);
   border-radius: 50%;
 }
 
@@ -180,12 +184,12 @@ footer {
 
 .momento h3 {
   margin: 10px 0px;
-  font-size: 30px;
+  font-size: 24px;
   text-align: center;
 }
 
 .momento .descripcion {
-  background-color: #eee;
+  background-color: #996800;
   border-radius: 10px;
   padding: 10px;
   line-height: 22px;
@@ -201,11 +205,11 @@ footer {
   width: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 12px solid #eee;
+  border-left: 12px solid #996800;
 }
 
 .momento:nth-child(even) .descripcion {
-  background-color: #3393FE;
+  background-color: #464646;
   color: white;
 }
 
@@ -213,7 +217,7 @@ footer {
   left: -10px;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-right: 12px solid #3393FE;
+  border-right: 12px solid #464646;
   border-left: none;
 }
 
@@ -224,7 +228,7 @@ footer {
   border-radius: 20px;
   width: 100%;
   text-align: left;
-  font-size: 24pt;
+  font-size: 20pt;
 }
 
 .article__fot {
@@ -314,6 +318,7 @@ h2 {
   font-size: 36pt;
   font-weight: bolder;
   font-variant: small-caps;
+  padding: 10px;
 }
 
 .main__index {
